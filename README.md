@@ -55,9 +55,7 @@ Make sure you have installed all the required dependencies before running this c
 
 This code will generate a JSON file containing the rewritten articles in Indonesian. Each article will have information such as title, date, URL, source, and content. The JSON file can be used for further purposes, such as analysis or publication.
 
-You can also customize this code to fit your needs. For example
-
-, by changing the value of the `keyword` to a topic of your interest, such as fashion, food, or other topics, you will get relevant articles based on your interest. Each time the code is run, one article will be generated in JSON format, which you can use for various purposes.
+You can also customize this code to fit your needs. For example, by changing the value of the `keyword` to a topic of your interest, such as fashion, food, or other topics, you will get relevant articles based on your interest. Each time the code is run, one article will be generated in JSON format, which you can use for various purposes.
 
 Furthermore, you can use automation to generate articles on a scheduled basis. For example, you can run this program automatically every day using cron jobs, schedulers, or similar tools. This way, you can upload new content automatically every day without having to do manual tasks.
 
