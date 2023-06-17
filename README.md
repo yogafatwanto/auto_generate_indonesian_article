@@ -113,9 +113,7 @@ Pastikan Anda telah menginstal semua dependensi yang diperlukan sebelum menjalan
 7. `get_artikel(url)`: Fungsi ini mengambil konten artikel dari URL yang diberikan menggunakan Selenium dan BeautifulSoup.
 8. `res_artikel(soup, url, scrapped_url)`: Fungsi ini mengekstrak informasi artikel dari objek BeautifulSoup dan mengembalikannya dalam bentuk dictionary.
 9. `get_list_links(results_urls)`: Fungsi ini menerima daftar URL hasil pencarian dan mengembalikan daftar link artikel.
-10. `find_artikel(urls, scrapped_url)`: Fungsi ini menerima daftar link artikel dan daftar URL
-
- yang sudah diambil sebelumnya, dan mengembalikan daftar link artikel yang belum pernah diambil sebelumnya.
+10. `find_artikel(urls, scrapped_url)`: Fungsi ini menerima daftar link artikel dan daftar URL yang sudah diambil sebelumnya, dan mengembalikan daftar link artikel yang belum pernah diambil sebelumnya.
 11. `rewrite(teks)`: Fungsi ini menulis ulang artikel dalam bahasa Indonesia menggunakan model OpenAI.
 12. `start_scrap()`: Fungsi ini merupakan titik masuk utama program. Fungsi ini menjalankan proses scraping dan penulisan ulang artikel.
 
